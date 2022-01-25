@@ -23,7 +23,7 @@ def pyramid_of_x():
     spaces = 5
     num_x = 1
     for i in range(1, n+1):
-        print((" " * spaces) + ("X" * num_x) + (" " * spaces))
+        print((" " * spaces) + ("X" * num_x))
         spaces -= 1
         num_x += 2
 pyramid_of_x()
